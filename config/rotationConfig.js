@@ -60,7 +60,7 @@ const rotationPattern = [
   
 
   // Add this to your existing configuration
-const initialStartDate = new Date(Date.UTC(2025, 12, 16)); // June 1, 2023 (months are 0-indexed)
+const initialStartDate = new Date(Date.UTC(2025, 11, 16)); // June 1, 2023 (months are 0-indexed)
 
 // In config/rotationConfig.js
 const realBusNumbers = [
