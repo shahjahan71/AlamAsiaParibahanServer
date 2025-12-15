@@ -79,16 +79,16 @@ const realBusNumbers = [
     'MB-0240', 'DMB-7944', 'DMB-2388', 'DMB-0620', 'NMB-0033',
     'DMB-7515', 'MB-0130', 'DMB-0448', 'DMB-8732', 'DMB-6624',
     'DMB-9347', 'DMB-5179', 'MB-0073', 'DMB-3899', 'MB-0107',
-    'MB-0067', 'DMB-0376', 'DMB-4717', 'DMB-4761', 'BD-0003'
+    'MB-0067', 'DMB-0376', 'DMB-4717', 'DMB-4761', 'CMB-1417','BD-0002','DMB-1614','MB-0343','BD-0005'
   ];
 
 
 
   module.exports = {
     rotationPattern,
-    totalBuses: 80,
+    totalBuses: 85,
     runningBuses: 55,
-    offChartBuses: 25,
+    offChartBuses: 30,
     firstBusTime: '04:00',
     timeInterval: 10,
     initialStartDate,
