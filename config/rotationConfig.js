@@ -60,35 +60,35 @@ const rotationPattern = [
   
 
   // Add this to your existing configuration
-const initialStartDate = new Date(Date.UTC(2025, 5, 28)); // June 1, 2023 (months are 0-indexed)
+const initialStartDate = new Date(Date.UTC(2025, 12, 16)); // June 1, 2023 (months are 0-indexed)
 
 // In config/rotationConfig.js
 const realBusNumbers = [
-    'MB-0219', 'DMB-8056', 'DMB-8749', 'DMB-7812', 'DMB-0339',
-    'MB-0093', 'CMB-1437', 'MB-0117', 'DMB-2438', 'DMB-1284',
-    'DMB-8748', 'DMB-2250', 'DMB-1492', 'MB-0072', 'DMB-7245',
-    'DMB-8055', 'DMB-2056', 'MB-0145', 'MB-0125', 'DMB-9664',
-    'DMB-2775', 'DMB-3926', 'DMB-8629', 'DMB-9663', 'DMB-1078',
-    'MB-0330', 'MB-0078', 'DMB-1193', 'DMB-9051', 'MB-0074',
-    'DMB-9898', 'DMB-7709', 'DMB-2408', 'DMB-2741', 'DMB-1480',
-    'DMB-4235', 'MB-0132', 'DMB-8373', 'DMB-0464', 'DMB-0495',
-    'DMB-9544', 'DMB-8793', 'DMB-9370', 'DMB-9604', 'DMB-9045',
-    'DMB-3243', 'DMB-9170', 'DMB-0004', 'DMB-0380', 'MB-0334',
-    'DMB-1677', 'MB-0149', 'DMB-0728', 'DMB-9549', 'MB-0134',
-    'MB-0124', 'MB-0218', 'DMB-9166', 'DMB-5167', 'DMB-3735',
-    'MB-0240', 'DMB-7944', 'DMB-2388', 'DMB-0620', 'NMB-0033',
-    'DMB-7515', 'MB-0130', 'DMB-0448', 'DMB-8732', 'DMB-6624',
-    'DMB-9347', 'DMB-5179', 'MB-0073', 'DMB-3899', 'MB-0107',
-    'MB-0067', 'DMB-0376', 'DMB-4717', 'DMB-4761', 'BD-0003'
-  ];
+  'MB-0073', 'DMB-9347', 'MB-0067', 'DMB-3899', 'DMB-0376',
+  'DMB-5179', 'MB-0107', 'MB-0219', 'DMB-4717', 'DMB-1614',
+  'MB-0093', 'DMB-4761', 'DMB-8056', 'DMB-7812', 'DMB-8749',
+  'DMB-2438', 'DMB-1284', 'DMB-0339', 'CMB-1437', 'DMB-2250',
+  'MB-0117', 'DMB-1492', 'MB-0125', 'DMB-8748', 'MB-0072',
+  'DMB-8055', 'DMB-7245', 'DMB-9664', 'DMB-3926', 'MB-0145',
+  'DMB-9663', 'DMB-2056', 'MB-0074', 'DMB-8629', 'DMB-2775',
+  'MB-0330', 'MB-0078', 'DMB-1078', 'DMB-9051', 'DMB-1193',
+  'DMB-8373', 'DMB-9898', 'DMB-7709', 'DMB-2741', 'DMB-1480',
+  'DMB-4235', 'MB-0132', 'DMB-9370', 'DMB-8793', 'DMB-2408',
+  'DMB-0495', 'DMB-0464', 'DMB-9544', 'DMB-9045', 'DMB-9604',//-
+  'DMB-9170', 'MB-0334', 'DMB-3243', 'DMB-1677', 'MB-0343',
+  'MB-0149', 'DMB-0380', 'DMB-9549', 'DMB-0728', 'MB-0134',
+  'MB-0124', 'MB-0218', 'DMB-9166', 'DMB-5167', 'DMB-3735',
+  'MB-0240', 'DMB-7944', 'DMB-2388', 'DMB-0620', 'NMB-0033',
+  'DMB-7515', 'MB-0130', 'DMB-0448', 'DMB-8732', 'DMB-6624', 'CMB-1417','BD-0002','BD-0003','BD-0004','BD-0005'
+];
 
 
 
   module.exports = {
     rotationPattern,
-    totalBuses: 80,
+    totalBuses: 85,
     runningBuses: 55,
-    offChartBuses: 25,
+    offChartBuses: 30,
     firstBusTime: '04:00',
     timeInterval: 10,
     initialStartDate,
